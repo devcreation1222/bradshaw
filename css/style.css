@@ -492,10 +492,6 @@ form {
     .overtext-right {
         height: 25px;
     }
-    .overtex-left {
-        left: unset;
-        right: 0px;
-    }
     .logo {
         height: 450px;
         position: absolute !important;
@@ -503,10 +499,6 @@ form {
 }
 
 @media (min-width: 1400px) {
-    .overtext-left {
-        left: unset;
-        right: 0px;
-    }
     .logo {
         height: 600px;
         position: absolute !important;
