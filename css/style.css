@@ -1,0 +1,479 @@
+/* Your custom styles */
+
+
+/* style of index.html */
+
+@font-face {
+    font-family: ArchivoBlack-Regular;
+    src: url(../font/ArchivoBlack-Regular.ttf);
+}
+
+body {
+    font-family: ArchivoBlack-Regular;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.container-fluid,
+.col-lg-6,
+.col-md-6,
+.col-sm-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mode-view {
+    position: absolute;
+}
+
+.overtext-left {
+    position: absolute !important;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.overtext-right {
+    position: absolute !important;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1000;
+}
+
+.logo {
+    height: 450px;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -42%);
+    z-index: 1000;
+}
+
+.menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-item {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 576px) {
+    .mode-view {
+        position: relative;
+    }
+    .overtext-left,
+    .overtext-right {
+        height: 25px;
+        left: 0px;
+        right: unset;
+    }
+    .logo {
+        height: 250px;
+        transform: translate(-50%, -55%);
+    }
+}
+
+
+/* style of mode.html */
+
+body {
+    margin: 0px !important;
+}
+
+.mode-menu {
+    transform: translateY(30%);
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+    transition: 1s opacity;
+}
+
+.summum {
+    clear: right;
+}
+
+.summum img,
+.margit {
+    margin-top: 53px;
+}
+
+@media (max-width: 576px) {
+    .summum img,
+    .margit {
+        margin-top: 24px;
+    }
+}
+
+
+/* style of summum-woman.html */
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* style of interieur.html */
+
+.body-interieur {
+    background-image: url("../assets/Interieur/interieur%202.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img-center {
+    margin: auto;
+    vertical-align: middle;
+}
+
+.interieur .view {
+    margin-top: 53px;
+}
+
+
+/* style of raumgestaltung.html */
+
+.body-raumgestaltung {
+    background-image: url("../assets/Raumgestaltung/img_4594.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.body-raumgestaltung .view {
+    margin-top: 53px;
+}
+
+.bg-first {
+    background: #414243;
+    width: 412.5px;
+    height: 412.5px;
+    border-radius: 50%;
+    float: right;
+    opacity: 0.89;
+}
+
+.first-item {
+    position: absolute !important;
+    top: 30%;
+    right: 4%;
+    z-index: 1000;
+}
+
+.bg-second {
+    background: #414243;
+    width: 567.5px;
+    height: 567.5px;
+    border-radius: 50%;
+    opacity: 0.89;
+}
+
+.second-item {
+    position: absolute !important;
+    top: 30%;
+    left: 3.5%;
+    z-index: 1000;
+}
+
+.bg-third {
+    background: #414243;
+    width: 472.5px;
+    height: 472.5px;
+    border-radius: 50%;
+    float: right;
+    opacity: 0.89;
+}
+
+.third-item {
+    position: absolute !important;
+    top: 25%;
+    right: 4%;
+    z-index: 1000;
+}
+
+@media (max-width: 576px) {
+    .bg-first,
+    .bg-second,
+    .bg-third {
+        width: 285px;
+        height: 285px;
+    }
+    img.first-item,
+    img.second-item {
+        width: 247.5px;
+    }
+    img.third-item {
+        width: 290px;
+        right: 5%;
+    }
+}
+
+
+/* style of cafe.html */
+
+.body-cafe {
+    background-image: url("../assets/Caf%c3%a9/Full%20Screen%20Background%20Cafe_Page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.body-cafe .view {
+    margin-top: 53px;
+}
+
+.c-bg-first {
+    background: #414243;
+    width: 412.5px;
+    height: 412.5px;
+    border-radius: 50%;
+    float: right;
+    opacity: 0.89;
+}
+
+.c-first-item {
+    position: absolute !important;
+    top: 34%;
+    right: -5%;
+    z-index: 1000;
+}
+
+.c-bg-second {
+    background: #414243;
+    width: 412.5px;
+    height: 412.5px;
+    border-radius: 50%;
+    opacity: 0.89;
+}
+
+.c-second-item {
+    position: absolute !important;
+    top: 30%;
+    left: 4%;
+    z-index: 1000;
+}
+
+.c-bg-third {
+    background: #414243;
+    width: 412.5px;
+    height: 412.5px;
+    border-radius: 50%;
+    float: right;
+    opacity: 0.89;
+}
+
+.c-third-item {
+    position: absolute !important;
+    top: 30%;
+    right: 0%;
+    z-index: 1000;
+}
+
+@media (max-width: 576px) {
+    .bg-first,
+    .bg-second,
+    .bg-third {
+        width: 285px;
+        height: 285px;
+    }
+    img.first-item,
+    img.second-item {
+        width: 247.5px;
+    }
+}
+
+
+/* style of kontakt.html */
+
+.body-kontakt {
+    background-image: url("../assets/Kontakt/Full%20Screen%20Background%20Kontakt_Page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+form {
+    background-color: #927752;
+    margin-top: 40px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.btn {
+    background-color: #666666 !important;
+}
+
+.btn:hover {
+    background-color: #000000 !important;
+}
+
+
+/* style of datenschutzimpressum.html */
+
+.body-datenschutzimpressum {
+    background-image: url("../assets/Datenschutz%20Impressum/Full%20Screen%20Background%20Datenschutz%20Impressum_Page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+.circle {
+    position: relative;
+    display: block;
+    margin: 2em 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.circle:after {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #414243;
+    content: "";
+}
+
+.circle-inner-1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circle-inner-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: unset;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circle-content-1,
+.circle-content-2 {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    font-weight: 400;
+}
+
+.contents {
+    margin-top: 300px;
+}
+
+@media (min-width: 375px) {
+    .circle-content-1 {
+        padding: 5.3em 1em 3em 1.7em;
+        font-size: 1.2em;
+        line-height: 16px;
+    }
+    .circle-content-2 {
+        padding: 1.8em 1em 3em 1em;
+        font-size: 1.2em;
+        line-height: 19px;
+    }
+}
+
+@media (min-width: 576px) {
+    .circle-content-1 {
+        padding: 5.3em 0.9em 3em 1.9em;
+        font-size: 1.8em;
+        line-height: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mode-view {
+        position: relative;
+    }
+    .circle-content-1 {
+        padding: 5.2em 0.7em 3em 1.7em;
+        font-size: 2.5em;
+        line-height: 45px;
+    }
+    .overtext-left,
+    .overtext-right {
+        height: 25px;
+    }
+    .overtext-right {
+        right: unset;
+    }
+    .logo {
+        height: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .circle-content-1 {
+        padding: 5.3em 0.6em 3em 1.6em;
+        font-size: 1.7em;
+        line-height: 25px;
+    }
+    .overtext-right {
+        height: 48px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 1000;
+    }
+}
+
+@media (min-width: 1200px) {
+    .circle-content-1 {
+        padding: 5.3em 0.7em 3em 1.7em;
+        font-size: 2em;
+        line-height: 33px;
+    }
+    .circle-content-2 {
+        padding: 2.5em 0em 3em 0em;
+        font-size: 1.6em;
+        line-height: 25px;
+    }
+    .overtext-left {
+        height: 48px;
+    }
+    .logo {
+        height: 609px;
+    }
+}
